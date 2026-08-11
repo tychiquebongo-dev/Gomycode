@@ -1,0 +1,25 @@
+:root {
+    --bleu: blue;
+    --rouge: red;
+    --blanc: white;
+    --jaune: yellow;
+    --rose: pink;
+    --vert: green;
+}
+* {
+    margin: 0;
+    padding: O;
+}
+/* style pour la section hero */
+.hero {
+    display: block;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--blanc);
+    padding-block: 50px;
+    padding-inline: 250px;
+} 
+.hero-image {
+    width: 500vh;
+    height: 400vh;
+}
