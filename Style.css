@@ -75,5 +75,23 @@
         left: 50%;
         transform: translate(-50%,-50%);
     }
+    .btn-savoir-plus {
+        display: inline-block;
+        margin-top: 2Opx;
+        padding: 10px 25px;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+
+    /* Effet au survol de la souris */
+    .btn-savoir-plus:hover {
+        background-color: #ffffff;
+        color: #ff5500;
+    }
 
     
