@@ -93,5 +93,23 @@
         background-color: #ffffff;
         color: #ff5500;
     }
+    /* check-list */
+    .check-list {
+        list-style: none;    /* Espace entre coche et texte */
+        padding: 0;
+
+    }
+    .check-list li {
+        display: flex;
+        align-items: center;
+        gap: 10px;     /* Espace entre coche et text */
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .check-list li::before {
+        content: "\2713";  /* Code simple */
+        color: green;
+    }
+
 
     
