@@ -7,8 +7,8 @@
     --vert: green;
 }
 * {
-    margin: 0;
-    padding: O;
+    
+    
 }
 /* style pour la section hero */
 .hero {
@@ -17,9 +17,27 @@
     gap: 50px;
     background-color: var(--blanc);
     padding-block: 50px;
-    padding-inline: 250px;
+    padding-inline: 200px;
 } 
 .hero-image {
     width: 500vh;
     height: 400vh;
 }
+.hero-text {
+    background-color: rgba(238, 130, 130, 0.954);
+    color: var(--blanc);
+    margin-bottom: 5px; /* Ajuste la distance avec le text en dessous */
+    display: flex;
+    flex-direction: column; /* Aligne les élement verticalement */
+    align-items: center;    /* Centre horizontalement tous les textes */
+    justify-content: center;  
+    gap: 2;                  /* Ajustez cette valeur pour reduire ou agrandir l'espace entre les deux textes */
+    
+}
+ .phone-number   {
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+    
+ }
