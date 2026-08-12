@@ -34,10 +34,46 @@
     gap: 2;                  /* Ajustez cette valeur pour reduire ou agrandir l'espace entre les deux textes */
     
 }
+
  .phone-number   {
     background-color: black;
     color: white;
+    display: flex;
     align-items: center;
     
+}
+
+/* Le conteneur parent */
+.image-container  {
+    position: relative;
+    display: flex;                 /* Active le flexbox */
+    justify-content: center;       /* Centre le contenu horizontalement */
+    align-items: center;           /* Centre le contenu verticalement */
+    width: 100%;             /* S'adapte à la largeur du parent */
+    overflow: hidden;        /* Empeche les debordements */
+
+    }
+
+    /* L'image de fond */
+    .image-container img  {
+        width: 100%;    /* L'image s'adapte à  la largeur */
+        height: auto;   /* Maintient le ratio de l'image */ 
+        display: block;  /* Suprime l'espace en bas de l'image */
+
+    } 
+
+    /* Le texte superpose */
+    .text-superpose  {
+        position: absolute; /* Obligatoire pour que z-index fonctionne */
+        z-index: 1O;  /* Une valeur positive pour le mettre devant */
+        text-align: center;  /* Centre le texte textuel */
+        background-color: orangered; /* fond oragered */
+        color: white;   /* couleur du texte */
+        padding: 20px;  /* Espace interieur */
+        border-radius: 8px;  /* coins arrondis */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
     
- }
