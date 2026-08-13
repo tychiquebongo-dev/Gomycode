@@ -169,6 +169,16 @@
         color: black;
         margin: 5px 0; /* réduit l'espace entre lignes */
         font-size: 15px;
+        align-items: center;
+    }
+
+       /* image-dev2 */
+
+    .image-dev2  {
+        width: 100%;   /* l'image s'adapte à la largeur */
+        height: auto;  /* maintient le ratio de l'image */
+        display: block;  /* suprime l'espace en bas de l'image */
+        margin-top: 50px;  /* Ajoute ça pour descendre */
     }
 
 
