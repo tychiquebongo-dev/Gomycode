@@ -37,9 +37,11 @@
 
  .phone-number   {
     background-color: black;
-    color: white;
+    color: white; 
     display: flex;
     align-items: center;
+    
+    
     
 }
 
@@ -110,6 +112,46 @@
         content: "\2713";  /* Code simple */
         color: green;
     }
+
+      /* logo */
+    .logo {
+        font-family: arial; sans-serif;  /* ou une police sans serif grasse */
+        font-weight: 900; /* très gras comme sur la photo */
+        font-size: 40px;
+        color: black;
+    }
+     .o-rouge {
+        color: #e63946; /* le rouge de Gomycode */
+        display: inline-block;
+     }
+
+     .header {
+        display: flex;  /* met le logo et le burger sur la meme ligne */
+        justify-content: space-between;  /* logo à gauche et burger à droite */
+        align-items: center; 
+        padding: 10px 20px;
+        background: white; 
+     }
+      .menu-burger {
+        display: flex;
+        flex-direction: column;  /* empile les traits verticalement */
+        gap: 6px;   /* espace entre les traits */
+        cursor: pointer;
+      }
+
+      .menu-burger span {
+        width: 28px;  /* longueur du trait */
+        height: 3px;  /* épaisseur du trait */
+        background-color: black; /* couleur des traits */
+        border-radius: 2px;
+      }
+      .sup {
+        font-size: 10px; /* encore plus petit */
+        font-weight: 700;
+        position: relative; /* important de pouvoir le bouger */
+        top: -8px;  /* <-- plus le nombre est grand, plus ça monte. test -6px; -8px; -10px */
+
+      }
 
 
     
