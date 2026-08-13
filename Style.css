@@ -153,5 +153,23 @@
 
       }
 
+      /* AI */
+      .AI-titre {
+        background-color: rgba(238, 255, 0, 0.118, 255, 0);
+        color: #e25cf6; /* le violet de Gomycode */
+        text-decoration: underline; /* le souligne */
+        font-weight: 600;   /* un peu gras comme sur la photo */
+        text-align: center; /* centré dans la carte */
+        font-size: 18px;
+        font-family: 'Inter', 'Poppins', Arial, sans-serif;
+        margin-top: 80px;  /* ajoute ça pour le descendre */
+        
+    } 
+    .AI-titre p {
+        color: black;
+        margin: 5px 0; /* réduit l'espace entre lignes */
+        font-size: 15px;
+    }
+
 
     
