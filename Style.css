@@ -238,6 +238,25 @@
     .btn-savoir-plus:hover {
      background-color: #222222;
     }
+    /* I-IA */
+    .money-image {
+        width: 100%;    /* l'image s'adapte à la largeur */
+        height: auto;   /* maintient le ratio de l'image */
+        display: block;  /* suprime l'espace en bas de l'image */
+        margin-top: 50px;  /* ajoute ça pour descendre e*/
+    }
+
+    .badge-intro {
+        background-color: #8b5cf6;   /* violet */
+        color: white;     /* texte blanc */
+        padding: 6px 14px;  /* espace à l'interieur */
+        border-radius: 20px;  /* coins très arrondis = effet pilule */
+        font-size: 13px;
+        font-weight: 600;
+        display: inline-block;  /* pour que le padding marche */
+        margin: 15px 0;    /* Espace haut et bas */
+
+    }
 
 
     
