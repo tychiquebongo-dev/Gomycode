@@ -240,37 +240,21 @@
     }
     /* I-IA */
     .money-image {
-        width: 100%;    /* l'image s'adapte à la largeur */
-        height: auto;   /* maintient le ratio de l'image */
-        display: block;  /* suprime l'espace en bas de l'image */
+        width: 100%;      /* l'image s'adapte à la largeur */
+        height: auto;     /* maintient le ratio de l'image */
+        display: block;     /* suprime l'espace en bas de l'image */
         margin-top: 50px;  /* ajoute ça pour descendre e*/
     }
 
     .badge-intro {
         background-color: #8b5cf6;   /* violet */
-        color: white;     /* texte blanc */
-        padding: 6px 14px;  /* espace à l'interieur */
+        color: white;       /* texte blanc */
+        padding: 6px 14px;    /* espace à l'interieur */
         border-radius: 20px;  /* coins très arrondis = effet pilule */
         font-size: 13px;
         font-weight: 600;
         display: inline-block;  /* pour que le padding marche */
-        margin: 15px 0;    /* Espace haut et bas */
-
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    html {
-        scroll-behavior: smooth;
-    }
-    
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        background: #ffffff;
+        margin: 15px 0;     /* Espace haut et bas */
     }
 
     /* SECTION PRICIPALE */
@@ -348,22 +332,13 @@
     /* MESSAGE WHATSAPP */
 
     .whatsapp-message  {
-        position: fixed;
-        bottom: 60px;
-        left: 80px;
-        width: 440px;
-        min-height: 125px;
-        background: #20d463;
-        border-radius: 35px;
+        position: fixed; 
+        bottom: 15px;
+        right: 20px;
+        gap: 15px;           /* espace entre le bouton vert et le bouton rouge */
         display: flex;
         align-items: center;
-        justify-content: center;
-        text-align: center;
-        color: white;
-        font-size: 29px;
-        line-height: 1.3;
-        box-shadow: 0 10px 20px rgba(0,0,0.20);
-        z-index: 10;
+        z-index: 1000;  /* S'assure que la barre passe au-dessus du reste du contenu */
     }
 
     /* Petite pointe du message */
@@ -401,6 +376,39 @@
     box-shadow: 0 5px 15px rgba(0,0,0,O.15);
     
   }
+    /* BARRE WHATSAPP DU BAS */
+
+    .whatsapp-bar  {
+        display: flex;  /* ou inline-flex */
+        align-items: center;
+        justify-content: center;
+        gap: 12px;           /* Espace entre duscutons-en et l'icone whatsapp */
+
+        background-color: #25d366;  /* whatsapp */
+        color: #000000;     /* couleur du texte */
+        font-weight: 600;   /* rendre le text un peu plus gras */
+        font-size: 1.1rem;  /* Agrandit légèrement le texte */
+        text-decoration: none;
+
+        width: fit-content;    /* Adapte la largeur au texte */
+        padding: 14px 32px;     /* 14px haut/bas (hauteur), 32px gauche/droit (largeur) */
+        margin: 25px auto 0 auto;    /* Le "auto" à gauche et à droite centre bouton */
+
+        border: none;
+        border-radius: 30px;   /* Bords bien arrondis */
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);  /* Ombre légère (optionnelle) */
+        cursor: pointer;
+     }
+
+    .whatsapp-icon  {
+        font-size: 30px; 
+
+    }
+
+    
+    
+        
+    
 
 
     
