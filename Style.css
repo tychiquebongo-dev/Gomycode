@@ -311,9 +311,9 @@
        /* TITRE */
 
     h1  {
-        font-size: 58px;
-        line-height: 1.3;
-        font-weight: 700;
+        font-size: 50px;
+        line-height: 1,5;
+        font-weight: 300;
         letter-spacing: -2px;
         margin-bottom: 90px;
     }
@@ -321,9 +321,9 @@
     /* DESCRIPTION */
 
     .description  {
-        font-size: 30px;
+        font-size: 20px;
         line-height: 1,55;
-        font-weight: 400;
+        font-weight: 300;
     }
 
     .description p  {
@@ -423,15 +423,15 @@
         font-weight: 700;
         text-align: left;
         color: #111;
-        margin-bottom: 150px;
-        line-height: 3,5px;
+        margin-bottom: 180px;
+        line-height: 4px;
     }
 
     /* Layout des logos avec CSS Grid  */
     .logo-grid {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 25px 20px;
+        grid-template-columns: repeat(2,5fr);
+        gap: 30px 25px;
         align-items: center;
         justify-items: center;
         margin-bottom: 40px;
@@ -448,14 +448,15 @@
      /* Bouton principal */
      .btn-brochure {
         display: inline-block;
-        width: 100%;
+        width: 150%;
         padding: 16px 20px;
         background-color: #000;
         color: #fff;
         text-decoration: none;
         border-radius: 8px;
         font-weight: 600;
-        margin-top: 30px;      /* Espace au-dessous, sous les logos */
+        margin-top: 200px;      /* Espace au-dessous, sous les logos */
+        text-align: center;
         font-size: 16px;
         border: none;
         box-sizing: border-box;
